@@ -1,0 +1,37 @@
+.search {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search__wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+}
+
+.search__input {
+    background-color: var(--gray);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    flex: 1;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.search__input::placeholder {
+    color: var(--brown);
+}
+
+.search button {
+    border: none;
+    background: var(--gray);
+    border-radius: 5px;
+    width: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
